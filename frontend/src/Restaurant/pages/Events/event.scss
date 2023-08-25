@@ -1,0 +1,52 @@
+.events-page {
+  .events-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    .ant-btn {
+      height: 40px;
+    }
+  }
+  .events-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    .event-card {
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 5px;
+      h2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+      .event-card-details {
+        display: flex;
+        margin-bottom: 10px;
+        .event-card-date {
+          margin-right: 10px;
+        }
+        .event-card-time {
+          margin-right: 10px;
+        }
+        .event-card-location {
+          color: #999;
+        }
+      }
+      .event-card-description {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+      }
+    }
+  }
+  .ant-picker-time-panel-select:first-child {
+    margin-right: 10px;
+  }
+}

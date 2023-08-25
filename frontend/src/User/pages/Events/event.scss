@@ -1,0 +1,132 @@
+.events-page {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 200px;
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+
+  .events-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    input[type='text'] {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      width: 300px;
+      max-width: 100%;
+      box-sizing: border-box;
+
+      &::placeholder {
+        color: #aaa;
+      }
+    }
+  }
+
+  .events-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+    .event {
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+
+      .event-image {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 5px 5px 0 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .event-details {
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .event-title {
+          font-size: 20px;
+          font-weight: bold;
+          margin: 0 0 10px 0;
+        }
+
+        .event-info {
+          display: flex;
+          align-items: center;
+          margin-bottom: 10px;
+
+          svg {
+            margin-right: 10px;
+          }
+
+          .event-date {
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 10px;
+          }
+
+          .event-time {
+            font-size: 14px;
+            color: #aaa;
+          }
+        }
+        
+        .event-restaurant {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+          
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              margin-right: 10px;
+            }
+          
+            span {
+              font-size: 16px;
+              font-weight: bold;
+            }
+          }
+
+        .event-description {
+          flex: 1;
+          margin-bottom: 10px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .event-button {
+          padding: 10px;
+          background-color: #f43c5c;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          font-size: 14px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

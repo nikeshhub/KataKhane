@@ -1,0 +1,28 @@
+.settings-page {
+    max-width: 800px;
+    margin: 0 auto;
+  
+    h1 {
+      margin-top: 0;
+      margin-bottom: 32px;
+      font-size: 36px;
+    }
+  
+    .ant-tabs-tab {
+      font-size: 18px;
+    }
+  
+    .location-settings-form {
+      margin-top: 32px;
+  
+      .map-container {
+        height: 400px;
+        margin-bottom: 16px;
+      }
+  
+      button {
+        margin-top: 16px;
+      }
+    }
+  }
+  

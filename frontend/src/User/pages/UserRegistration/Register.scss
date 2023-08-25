@@ -1,0 +1,79 @@
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+  
+    .register-form-container {
+      max-width: 350px;
+      width: 100%;
+      padding: 2rem;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .register-form-header {
+      margin-bottom: 2rem;
+  
+      img {
+        max-width: 200px;
+      }
+    }
+  
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .form-group {
+        width: 100%;
+        margin-bottom: 1.5rem;
+  
+        .ant-input-prefix {
+          color: #8e8e8e;
+        }
+  
+        input[type='password'] {
+          color: #262626;
+        }
+      }
+  
+      .ant-checkbox-wrapper {
+        margin-top: 0.5rem;
+  
+        a {
+          color: #003569;
+        }
+      }
+  
+      .register-btn {
+        width: 100%;
+        background-color: #f43c5c;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #fc879b;
+        }
+      }
+    }
+  
+    .register-form-footer {
+      margin-top: 2rem;
+  
+      a {
+        color: #003569;
+      }
+    }
+  }
+  

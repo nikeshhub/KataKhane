@@ -1,0 +1,48 @@
+.review-list-page {
+    margin-left: 250px;
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  
+    .filter-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      form {
+        display: flex;
+        align-items: center;
+  
+        .ant-form-item {
+          margin-right: 20px;
+  
+          .ant-select {
+            width: 150px;
+          }
+  
+          .ant-input {
+            width: 250px;
+          }
+        }
+      }
+  
+      .ant-btn {
+        margin-right: 20px;
+      }
+    }
+  
+    .action-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      .ant-btn {
+        margin-right: 10px;
+      }
+    }
+  }
+  

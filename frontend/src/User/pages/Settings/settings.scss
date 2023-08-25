@@ -1,0 +1,90 @@
+.settings {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  .settings-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  
+  .settings-tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #555;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  background-color: #f5f5f5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  }
+  
+  .settings-tab:hover,
+  .settings-tab.active {
+  background-color: #f0f0f0;
+  color: #555;
+  }
+  
+  .settings-tab.active {
+  border-bottom: 2px solid #555;
+  }
+  
+  .edit-info,
+  .change-password {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  }
+  
+  .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  }
+  
+  .form-row label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+  
+  .form-row input,
+  .form-row textarea {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  }
+  
+  .form-row input:focus,
+  .form-row textarea:focus {
+  outline: none;
+  border-color: #555;
+  }
+  
+  .save-button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .save-button:hover {
+  background-color: #333;
+  }
